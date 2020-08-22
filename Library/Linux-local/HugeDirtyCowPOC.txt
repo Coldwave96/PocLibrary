@@ -1,0 +1,5 @@
+A POC for the Huge Dirty Cow vulnerability (CVE-2017-1000405)
+
+Before running, make sure to set transparent huge pages to "always":
+
+echo always | sudo tee /sys/kernel/mm/transparent_hugepage/enabled

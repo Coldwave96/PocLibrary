@@ -1,0 +1,3 @@
+[**fastjson-1.2.41_rce.py**](https://github.com/zhzyker/exphub/tree/master/fastjson) 
+
+Fastjson <=1.2.41 反序列化远程命令执行漏洞  

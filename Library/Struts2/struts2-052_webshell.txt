@@ -1,0 +1,1 @@
+("[+]ussage: http://ip:端口/edit cmd命令")

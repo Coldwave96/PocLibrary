@@ -1,0 +1,3 @@
+[**struts2-052_webshell.py**](https://github.com/zhzyker/exphub/blob/master/struts2) 
+
+Struts2 REST 插件远程代码执行漏洞上传Webshell脚本(CVE-2017-9805)

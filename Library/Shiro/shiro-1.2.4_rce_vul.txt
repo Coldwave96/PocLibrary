@@ -1,0 +1,6 @@
+# CVE-2016-4437
+Apache Shiro 1.2.4及以前版本中，加密的用户信息序列化后存储在名为remember-me的Cookie中。
+攻击者可以使用Shiro的默认密钥伪造用户Cookie，触发Java反序列化漏洞，进而在目标机器上执行任意命令。
+
+# 影响范围
+Apache Shiro版本<=1.2.4

@@ -1,0 +1,3 @@
+[**struts2-032_poc.py**](https://github.com/zhzyker/exphub/blob/master/struts2) 
+
+Struts2 method 任意代码执行漏洞检测脚本(CVE-2016-3081)

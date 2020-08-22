@@ -1,0 +1,3 @@
+[**struts2-053_cmd.py**](https://github.com/zhzyker/exphub/blob/master/struts2) 
+
+Struts2 Freemarker 标签远程执行命令漏洞利用脚本(CVE-2017-12611)

@@ -1,0 +1,5 @@
+[**struts2-045-2_cmd.py**](https://github.com/zhzyker/exphub/blob/master/struts2)   
+
+Struts2 Jakarta Multipart parser 插件远程命令执行漏洞利用脚本2(CVE-2017-5638)
+
+[[使用]](https://freeerror.org/d/490)
