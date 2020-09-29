@@ -190,6 +190,18 @@ class MyFrame2 ( wx.Frame ):
 			return data.webminchoice
 		elif module == "IIS":
 			return data.iischoice
+		elif module == "OA-System":
+			return data.oachoice
+		elif module == "IOT":
+			return data.iotchoice
+		elif module == "CMS":
+			return data.cmschoice
+		elif module == "Windows":
+			return data.winchioce
+		elif module == "WebFramework":
+			return data.webframechoice
+		elif module == "Others":
+			return data.otherchoice
 
 # MyFrame2窗体选择POC/EXP后获取具体选项
 	def selectPoc(self, event):
@@ -223,6 +235,18 @@ class MyFrame2 ( wx.Frame ):
 		elif str in data.webminchoice:
 			self.readfile(str)
 		elif str in data.iischoice:
+			self.readfile(str)
+		elif str in data.oachoice:
+			self.readfile(str)
+		elif str in data.iotchoice:
+			self.readfile(str)
+		elif str in data.cmschoice:
+			self.readfile(str)
+		elif str in data.winchioce:
+			self.readfile(str)
+		elif str in data.webframechoice:
+			self.readfile(str)
+		elif str in data.otherchoice:
 			self.readfile(str)
 		else:
 			temp_win = MyFrame3(parent=None)

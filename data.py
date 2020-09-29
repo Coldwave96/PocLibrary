@@ -1,20 +1,26 @@
 # -*- coding: utf-8 -*-
 
 module_list = [
+    "Apache-Solr",
+    "CMS",
     "Drupal",
     "F5",
     "Fastjson",
+    "IIS",
+    "IOT",
     "Jboss",
+    "Linux-local",
     "Nexus",
+    "OA-System",
     "Shiro",
-    "Apache-Solr",
     "Spring",
     "Struts2",
     "Tomcat",
+    "WebFramework",
     "Weblogic",
-    "Linux-local",
     "Webmin",
-    "IIS"
+    "Windows",
+    "Others"
 ]
 
 drupalchoice = [
@@ -98,6 +104,7 @@ weblogicchoice = [
     "cve-2018-2893_poc",
     "cve-2018-2894_poc_exp",
     "cve-2019-2618_webshell",
+    "cve-2019-2890_poc",
     "cve-2020-2551_poc",
     "cve-2020-2555_cmd",
     "cve-2020-2883_cmd"
@@ -107,7 +114,8 @@ linuxchoice = [
     "linux-exploit-suggester",
     "LinEnum",
     "dirtycow",
-    "HugeDirtyCowPOC"
+    "HugeDirtyCowPOC",
+    "cve-2019-0211-apache"
 ]
 
 webminchoice = [
@@ -115,5 +123,73 @@ webminchoice = [
 ]
 
 iischoice = [
-    "CVE-2015-1635-POC"
+    "CVE-2015-1635-POC",
+    "cve-2017-7269_rce-poc",
+    "cve-2017-7269-exp_rce"
+]
+
+oachoice = [
+    "致远OA-A8_cmd",
+    "E-cology_OA_rce",
+    "E-cology_OA前台SQL注入漏洞",
+    "ZenTao_cmd"
+]
+
+iotchoice = [
+    "蜂网互联企业级路由器密码泄露",
+    "天翼创维awifi未授权访问",
+    "D-Link_rce",
+    "Huawei-WS331a-CSRF",
+    "nipper-ng-Remote_Buffer_Overflow",
+    "Amazon-Kindle-Fire-HD-Fire-OS-4.5.5.3"
+]
+
+cmschoice = [
+    "五指CMS-CSRF",
+    "CouchCMS-v2",
+    "FineCMS-CSRF",
+    "FineCMS-poc1-cmd",
+    "FineCMS-poc2-cmd",
+    "FlameCMS-sql_injection",
+    "GreenCMS-CSRF",
+    "HucartCMS-CSRF",
+    "indexhibitCMS-1_cmd",
+    "indexhibitCMS-2_cmd",
+    "joyplusCMS-CSRF",
+    "LFCMS-CSRF",
+    "maccms-CSRF",
+    "Metinfo-XSS&SQL_Injection",
+    "MetInfoCMS-v5.x_cmd",
+    "MiniCMS-CSRF",
+    "S-CMS-v3.0-CSRF",
+    "S-CMS-v3.0-SQL_Injection",
+    "ThinkCMF-漏洞合集",
+    "thinkcmf-cve-2019-7580_rce",
+    "YzmCMS-v3.6-XSS",
+    "ZZCMS201910-SQL_Injection"
+]
+
+winchioce = [
+    "bluekeep_poc",
+    "bluekeep_dos",
+    "CVE-2019-0803-Win32k_Elevation-of-Privilege-Poc"
+]
+
+webframechoice = [
+    "cve-2018-6389-wordpress_exp",
+    "Discuz-ml-rce"
+]
+
+otherchoice = [
+    "CVE-2019-6977",
+    "CVE-2019-7609-kibana_rce",
+    "CVE-2019-8451-Jira-SSRF",
+    "CVE-2019-11510",
+    "CVE-2019-16097",
+    "CVE-2019-16759-vBulletin-5.x_rce",
+    "freeFTP1.0.8",
+    "Joomla-3.4.6-rce",
+    "ThinkPHP_rce",
+    "ThinVNC-1.0b1-Authentication-Bypass",
+    "typecho-反序列化"
 ]
