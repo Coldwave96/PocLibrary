@@ -14,7 +14,6 @@ import data
 ## Class MyFrame1
 ###########################################################################
 
-
 class MyFrame1 ( wx.Frame ):
 
 	def __init__( self, parent ):

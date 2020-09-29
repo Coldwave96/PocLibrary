@@ -23,6 +23,7 @@ module_list = [
     "Others"
 ]
 
+
 drupalchoice = [
     "cve-2018-7600_poc",
     "cve-2018-7600_cmd",
@@ -31,9 +32,11 @@ drupalchoice = [
     "cve-2019-6340_cmd"
 ]
 
+
 f5choice = [
     "cve-2020-5902"
 ]
+
 
 fastjsonchoice = [
     "RMI-LDAP-Exploit",
@@ -48,10 +51,12 @@ fastjsonchoice = [
     "fastjson-tool"
 ]
 
+
 jbosschoice = [
     "cve-2017-12149_cmd",
     "cve-2017-12149_poc"
 ]
+
 
 nexuschoice = [
     "cve-2019-7238_cmd",
@@ -61,9 +66,11 @@ nexuschoice = [
     "cve-2020-11444_exp"
 ]
 
+
 shirochoice = [
     "shiro-1.2.4_rce"
 ]
+
 
 solrchoice = [
     "cve-2017-12629_cmd",
@@ -71,9 +78,11 @@ solrchoice = [
     "cve-2019-17558_cmd"
 ]
 
+
 springchoice = [
     "cve-2018-1273_cmd"
 ]
+
 
 struts2choice = [
     "struts2-032_cmd",
@@ -86,10 +95,12 @@ struts2choice = [
     "struts2-057_cmd"
 ]
 
+
 tomcatchoice = [
     "cve-2017-12615_cmd",
     "cve-2020-1938_exp"
 ]
+
 
 weblogicchoice = [
     "cve-2014-4210_ssrf_redis_shell",
@@ -110,6 +121,7 @@ weblogicchoice = [
     "cve-2020-2883_cmd"
 ]
 
+
 linuxchoice = [
     "linux-exploit-suggester",
     "LinEnum",
@@ -118,9 +130,11 @@ linuxchoice = [
     "cve-2019-0211-apache"
 ]
 
+
 webminchoice = [
     "CVE-2019-15107"
 ]
+
 
 iischoice = [
     "CVE-2015-1635-POC",
@@ -128,12 +142,14 @@ iischoice = [
     "cve-2017-7269-exp_rce"
 ]
 
+
 oachoice = [
     "致远OA-A8_cmd",
     "E-cology_OA_rce",
     "E-cology_OA前台SQL注入漏洞",
     "ZenTao_cmd"
 ]
+
 
 iotchoice = [
     "蜂网互联企业级路由器密码泄露",
@@ -143,6 +159,7 @@ iotchoice = [
     "nipper-ng-Remote_Buffer_Overflow",
     "Amazon-Kindle-Fire-HD-Fire-OS-4.5.5.3"
 ]
+
 
 cmschoice = [
     "五指CMS-CSRF",
@@ -169,16 +186,19 @@ cmschoice = [
     "ZZCMS201910-SQL_Injection"
 ]
 
+
 winchioce = [
     "bluekeep_poc",
     "bluekeep_dos",
     "CVE-2019-0803-Win32k_Elevation-of-Privilege-Poc"
 ]
 
+
 webframechoice = [
     "cve-2018-6389-wordpress_exp",
     "Discuz-ml-rce"
 ]
+
 
 otherchoice = [
     "CVE-2019-6977",
