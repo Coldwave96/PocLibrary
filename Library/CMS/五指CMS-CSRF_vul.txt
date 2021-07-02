@@ -1,0 +1,11 @@
+## 漏洞简介  
+
+漏洞名称：五指CMS 4.1.0存在CSRF漏洞可增加管理员账户
+上报日期：2018-04-10
+漏洞发现者：套哥（taoge@5ecurity.cn）
+产品首页：https://github.com/wuzhicms/wuzhicms
+软件链接：https://github.com/wuzhicms/wuzhicms
+版本：4.1.0
+CVE编号：
+[CVE-2018-9926](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-9926)
+[CVE-2018-9927](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-9927)

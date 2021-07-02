@@ -1,0 +1,5 @@
+## 漏洞利用  
+
+访问后台登陆处抓包`http://127.0.0.1:8888/FlameCMS-master/account/login.php`
+
+然后把抓取的post包，放进sqlmap跑，成功使用盲注跑出

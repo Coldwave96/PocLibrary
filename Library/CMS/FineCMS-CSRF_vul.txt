@@ -1,0 +1,9 @@
+## 漏洞简介  
+
+漏洞名称：Finecms_v5.4存在CSRF漏洞可修改管理员账户密码
+上报日期：2018-10-07
+漏洞发现者：踏月留香
+产品首页：http://www.finecms.net/
+软件链接：http://down.chinaz.com/soft/32596.htm
+版本：5.4
+CVE编号：[CVE-2018-18191](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-18191)

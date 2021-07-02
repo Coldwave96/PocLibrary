@@ -1,0 +1,5 @@
+## 漏洞概述  
+
+恶意攻击者可以精心伪造一个Html页面 从而获取网站webshell。
+
+GreenCMS是一个在github上开源的CMS系统，漏洞发现者已经将漏洞信息通过[issues](https://github.com/GreenCMS/GreenCMS/issues/108)/[issues](https://github.com/GreenCMS/GreenCMS/issues/109)告知作者。   

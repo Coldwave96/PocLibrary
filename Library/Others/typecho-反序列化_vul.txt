@@ -1,0 +1,3 @@
+### typecho反序列化漏洞 
+
+Typecho是一个轻量版的博客系统，该漏洞主要存在于install.php文件中。

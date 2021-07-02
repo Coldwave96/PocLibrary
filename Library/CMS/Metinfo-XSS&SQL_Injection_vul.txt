@@ -1,0 +1,11 @@
+### 漏洞简介  
+
+漏洞名称：Metinfo-6.1.2版本存在XSS漏洞&SQL注入漏洞
+上报日期：2018-10-12
+漏洞发现者：踏月留香
+产品首页：https://www.metinfo.cn/
+软件链接：https://www.metinfo.cn/upload/file/MetInfo6.1.2.zip
+版本：6.1.2
+CVE编号：
+[CVE-2018-18296](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-18296)
+[CVE-2018-17129](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-17129)  

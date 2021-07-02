@@ -1,0 +1,4 @@
+## 漏洞概述  
+
+五指CMS 4.1.0版本存在一个CSRF漏洞，当管理员登陆后访问下面CSRF测试页面可将普通用户提成为管理员权限。
+五指CMS是一个在github上开源的CMS系统，漏洞发现者已经将漏洞信息通过[issues](https://github.com/wuzhicms/wuzhicms/issues/128)告知作者。

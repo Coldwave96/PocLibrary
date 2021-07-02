@@ -1,0 +1,9 @@
+### 漏洞简介  
+
+漏洞名称：S-CMS企业建站系统PHP版v3.0后台存在CSRF可添加管理员权限账号
+上报日期：2019-02-22
+漏洞发现者：qn（137535957@qq.cn）
+产品首页：https://www.s-cms.cn
+软件链接：https://www.s-cms.cn
+版本：PHP v3.0
+CVE编号：[CVE-2019-9040](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9040)

@@ -1,0 +1,9 @@
+### 漏洞简介  
+
+漏洞名称：MiniCMS 1.10存在CSRF漏洞可增加管理员账户
+上报日期：2018-03-30
+漏洞发现者：zixian（me@zixian.org、zixian@5ecurity.cn）
+产品首页：https://github.com/bg5sbk/MiniCMS
+软件链接：https://github.com/bg5sbk/MiniCMS
+版本：1.10
+CVE编号：[CVE-2018-9092](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-9092)

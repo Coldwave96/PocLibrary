@@ -1,0 +1,7 @@
+漏洞名称：seeyon_rce致远 OA A8 getshell_0day
+上报日期：2019-06-26
+漏洞发现者：360-CERT
+产品首页：http://www.skyworth.com/
+软件链接：http://www.seeyon.com/
+版本：A8 V7.0 SP3/V6.1 SP2
+CVE编号：[B6-2019-062601](https://cert.360.cn/warning/detail?id=d877451a4dbebd852d01e9730d762076)

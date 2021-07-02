@@ -1,0 +1,9 @@
+## 漏洞简介  
+
+漏洞名称：天翼创维awifi路由器存在多处未授权访问漏洞
+上报日期：2019-06-01
+漏洞发现者：H4lo
+产品首页：http://www.skyworth.com/
+软件链接：http://www.skyworth.com/
+版本：Boa/0.94.14rc21
+CVE编号：[CVE-2019-12862](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-12862)

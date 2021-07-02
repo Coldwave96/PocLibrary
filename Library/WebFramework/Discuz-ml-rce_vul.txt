@@ -1,0 +1,5 @@
+# 概述
+
+漏洞在于cookie的language可控并且没有严格过滤，导致可以远程代码执行，详情参考
+
+[discuz ml RCE漏洞重现及分析](http://www.lsablog.com/networksec/penetration/discuz-ml-rce-analysis/)

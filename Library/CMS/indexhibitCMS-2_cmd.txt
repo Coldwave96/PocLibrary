@@ -1,0 +1,3 @@
+#### 漏洞概述  
+
+> indexhibit CMS 2.1.5版本存在一个直接编辑php文件的漏洞，导致getshell。 

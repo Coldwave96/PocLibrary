@@ -1,0 +1,9 @@
+**第二处getshell**：在文件C:/phpStudy/WWW/finecms/dayrui/controllers/member/Account.php中的upload函数
+
+```php
+if (preg_match('/^(data:\s*image\/(\w+);base64,)/', $file, $result)){
+                $new_file = $dir.'0x0.'.$result[2];
+                if (!@file_put_contents($new_file, base64_decode(str_replace($result[1], '', $file)))) {
+                    exit(dr_json(0, '目录权限不足或磁盘已满'));
+                
+```

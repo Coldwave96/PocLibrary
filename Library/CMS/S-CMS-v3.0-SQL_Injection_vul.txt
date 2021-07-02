@@ -1,0 +1,9 @@
+### 漏洞简介  
+
+漏洞名称：S-CMS PHP v3.0存在SQL注入漏洞
+上报日期：2019-05-31
+漏洞发现者：zhhhy
+产品首页：https://www.s-cms.cn/download.html?code=php
+软件链接：https://www.s-cms.cn/download.html?code=php
+版本：PHP v3.0
+CVE编号：[CVE-2019-12860](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-12860)

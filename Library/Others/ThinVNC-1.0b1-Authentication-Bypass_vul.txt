@@ -1,0 +1,5 @@
+## ThinVNC 1.0b1 - Authentication Bypass  
+
+## 简介  
+
+ThinVNC是一款基于HTML5和AJAX的远程桌面实现  

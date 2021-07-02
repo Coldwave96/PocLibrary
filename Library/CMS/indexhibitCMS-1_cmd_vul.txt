@@ -1,0 +1,21 @@
+## 漏洞  
+
+CVE-2019-16314 indexhibit cms v2.1.5 存在重装并导致getshell
+
+## 漏洞简介  
+
+夜程 发现indexhibit cms v2.1.5 存在重装并导致getshell 漏洞
+
+## 影响范围  
+
+### 产品  
+
+> indexhibit cms
+
+### 版本  
+
+> indexhibit cms  v2.1.5 版本  
+
+### 组件  
+
+> indexhibit cms  

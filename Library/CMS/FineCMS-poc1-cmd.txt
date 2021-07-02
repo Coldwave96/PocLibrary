@@ -1,0 +1,1 @@
+无需登录，直接getshell,路径为http://localhost:88/uploadfile/member/0/0x0.php

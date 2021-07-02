@@ -1,0 +1,5 @@
+## 漏洞概述  
+
+Couch through 2.0存在路径泄露漏洞，当访问特定url时系统返回的报错信息中暴露物理路径信息。
+Couch through是一个在github上开源的系统，漏洞发现者已经将漏洞信息通过
+[issues](https://github.com/CouchCMS/CouchCMS/issues/46)告知作者。 

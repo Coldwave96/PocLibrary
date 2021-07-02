@@ -1,0 +1,5 @@
+#### 漏洞概述  
+
+> MiniCMS 1.10存在CSRF漏洞，当管理员登陆后访问下面CSRF测试页面可增加管理员账户。
+
+》 MiniCMS是一个在github上开源的CMS系统，漏洞发现者已经将漏洞信息通过[issues](https://github.com/bg5sbk/MiniCMS/issues/14)告知作者。  

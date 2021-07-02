@@ -1,0 +1,17 @@
+## D-Link路由器曝出RCE漏洞，牵涉多个型号(CVE-2019-16920)
+
+### 简介
+
+> Fortinet旗下FortiGuard实验室的研究人员披露了D-Link路由器上的一个远程命令执行漏洞，牵涉多个型号  
+
+### 相关文章
+
+> https://www.fortinet.com/blog/threat-research/d-link-routers-found-vulnerable-rce.html  
+> https://nosec.org/home/detail/3020.html  
+
+### 根据作者披露的受影响型号为：
+
+- DIR-655
+- DIR-866L
+- DIR-652
+- DHP-1565

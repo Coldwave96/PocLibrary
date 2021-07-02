@@ -1,0 +1,20 @@
+```
+# Exploit Title: nipper-ng 0.11.10 - Remote Buffer Overflow (PoC)
+# Date: 2019-10-20
+# Exploit Author: Guy Levin
+# https://blog.vastart.dev
+# Vendor Homepage: https://tools.kali.org/reporting-tools/nipper-ng
+# Software Link: https://code.google.com/archive/p/nipper-ng/source/default/source
+# Version:  0.11.10
+# Tested on: Debian
+# CVE : CVE-2019-17424
+
+"""
+    Exploit generator created by Guy Levin (@va_start - twitter.com/va_start)
+    Vulnerability found by Guy Levin (@va_start - twitter.com/va_start)
+
+    For a detailed writeup of CVE-2019-17424 and the exploit building process, read my blog post
+    https://blog.vastart.dev/2019/10/stack-overflow-cve-2019-17424.html
+
+    may need to run nipper-ng with enviroment variable LD_BIND_NOW=1 on ceratin systems
+"""

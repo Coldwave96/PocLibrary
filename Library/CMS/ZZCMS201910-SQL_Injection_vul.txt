@@ -1,0 +1,7 @@
+## ZZCMS201910 SQL Injections SQL注入  
+
+> 前提是你有一个具有购买权限的VIP会员账户
+> 不然会提示：
+
+"您所在的用户组没有下载此信息的权限！
+<br><input  type=button value=升级成VIP会员 onclick=\"location.href='/one/vipuser.php'\"/>"

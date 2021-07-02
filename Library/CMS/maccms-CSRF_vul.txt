@@ -1,0 +1,9 @@
+### 漏洞简介  
+
+漏洞名称：maccms_v10存在CSRF漏洞可增加任意账号
+上报日期：2018-06-11
+漏洞发现者：Bay0net
+产品首页：http://www.maccms.com/
+软件链接：http://www.maccms.com/down.html
+版本：v10
+CVE编号：[CVE-2018-12114](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-12114)

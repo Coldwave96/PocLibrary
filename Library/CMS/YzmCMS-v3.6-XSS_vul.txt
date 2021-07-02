@@ -1,0 +1,9 @@
+### 漏洞简介  
+
+漏洞名称：YzmCMS 3.6存在XSS漏洞
+上报日期：2018-04-05
+漏洞发现者：zzw (zzw@5ecurity.cn)
+产品首页：http://www.yzmcms.com/
+软件链接：http://www.yzmcms.com/
+版本：3.6
+CVE编号：[CVE-2018-7653](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-7653)

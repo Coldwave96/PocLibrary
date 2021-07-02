@@ -1,0 +1,9 @@
+### POC实现代码如下：  
+
+------
+
+访问如下页面，报错信息中显示完整物理路径信息。
+
+    Location:
+    includes/mysql2i/mysql2i.func.php
+    addons/phpmailer/phpmailer.php

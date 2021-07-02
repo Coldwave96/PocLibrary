@@ -1,0 +1,9 @@
+## 漏洞简介  
+
+漏洞名称：Couch through 2.0存在路径泄露漏洞
+上报日期：2018-03-04
+漏洞发现者： zzw (zzw@5ecurity.cn)
+产品首页：https://github.com/CouchCMS/CouchCMS/
+软件链接：https://github.com/CouchCMS/CouchCMS/
+版本：2.0 
+CVE编号：[CVE-2018-7662](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-7662)

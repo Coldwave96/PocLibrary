@@ -1,0 +1,6 @@
+### **Joomla-3.4.6-RCE**  
+
+> exp author: twitter:@momika233
+> from :https://github.com/momika233/Joomla-3.4.6-RCE
+> Software Link: https://downloads.joomla.org/it/cms/joomla3/3-4-6
+> Version: 3.0.0 --> 3.4.6

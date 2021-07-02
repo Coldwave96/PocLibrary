@@ -1,0 +1,9 @@
+### 漏洞简介  
+
+漏洞名称：joyplus-cms 1.6.0存在CSRF漏洞可增加管理员账户
+上报日期：2018-03-14
+漏洞发现者：yx（yx@5ecurity.cn）
+产品首页：https://github.com/joyplus/joyplus-cms/
+软件链接：https://github.com/joyplus/joyplus-cms/
+版本：1.6.0
+CVE编号：[CVE-2018-8717](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-8717)

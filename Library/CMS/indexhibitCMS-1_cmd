@@ -1,0 +1,11 @@
+## 漏洞l利用  
+
+直接访问/ndxzstudio/install.php，提示已安装
+
+但是，通过参数p可以绕过，直接重新安装
+
+填写相关信息后安装成功。
+
+## POC：
+
+> /ndxzstudio/install.php?p=2

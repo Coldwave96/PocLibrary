@@ -1,0 +1,9 @@
+### 漏洞简介  
+
+漏洞名称：Amazon Kindle Fire HD (3rd Generation)内核驱动拒绝服务漏洞
+上报日期：2018-10-10
+漏洞发现者：大兵
+产品首页：http://www.amazon.com/
+软件链接：https://fireos-tablet-src.s3.amazonaws.com/46sVcHzumgrjpCXPHw6oygKVmw/kindle_fire_7inch_4.5.5.3.tar.bz2
+版本：Fire OS 4.5.5.3
+CVE编号：[CVE-2018-11021](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11021)

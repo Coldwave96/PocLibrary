@@ -1,0 +1,11 @@
+## 漏洞简介  
+
+漏洞名称：GreenCMS v2.3.0603存在CSRF漏洞可获取webshell&增加管理员账户
+上报日期：2018-06-02
+漏洞发现者：惜潮
+产品首页：https://github.com/GreenCMS/GreenCMS
+软件链接：https://github.com/GreenCMS/GreenCMS
+版本：v2.3.0603
+CVE编号：
+[CVE-2018-11670](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11670)
+[CVE-2018-11671](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11671)

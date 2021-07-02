@@ -1,0 +1,5 @@
+## 简介  
+
+泛微e-cology OA远程代码执行|泛微OA管理系统RCE漏洞利用脚本
+
+USAGE：python e-cology-rce.py http://target.com/ 根据提示输入需要执行的命令即可检测

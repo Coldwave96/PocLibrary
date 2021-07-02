@@ -1,0 +1,13 @@
+## 漏洞简介  
+
+漏洞名称：华为WS331a产品管理页面存在CSRF漏洞
+上报日期：2016-09-07
+漏洞发现者：zixian（me@zixian.org）
+产品首页：http://www.huawei.com/
+软件链接：http://www.huawei.com/
+版本：WS331a-10 V100R001C02B017SP01及之前版本
+CVE编号：[CVE-2016-6158](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-6158)
+
+## 漏洞概述  
+
+华为WS331a 是一款便携无线路由器。WS331a产品的管理页面中存在一个CSRF漏洞，未经过认证的攻击者可以利用此漏洞发起CSRF攻击。成功利用此漏洞，攻击者可以向受影响设备提交特定请求进而导致设备恢复出厂设置或者重启。 (漏洞编号:HWPSIRT-2016-07078)

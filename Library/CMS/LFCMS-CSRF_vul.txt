@@ -1,0 +1,10 @@
+### 漏洞简介  
+
+漏洞名称：LFCMS 3.7.0存在CSRF漏洞可添加任意用户账户或任意管理员账户
+上报日期：2018-06-20
+漏洞发现者：Bay0net
+产品首页：http://www.lfdycms.com/
+软件链接：http://www.lfdycms.com/
+版本：3.7.0
+CVE编号：[CVE-2018-12602](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-12602)
+ 

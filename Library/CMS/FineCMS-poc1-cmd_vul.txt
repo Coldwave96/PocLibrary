@@ -1,0 +1,32 @@
+**第一处getshell**：在C:/phpStudy/WWW/finecms/dayrui/controllers/Api.php中的data2函数，大约在第115行，有问题的代码大约在178行
+
+```
+$file = $_REQUEST['file'];
+```
+
+获取$file变量
+
+```
+if (preg_match('/^(data:\s*image\/(\w+);base64,)/', $file, $result)){
+                        $new_file = $dir.'0x0.'.$result[2];
+                        if (!@file_put_contents($new_file, base64_decode(str_replace($result[1], '', $file)))) {
+                            $data = array(
+                                'msg' => '目录权限不足或磁盘已满',
+                                'code' => 0
+                            );
+```
+
+然后用preg_match函数进行正则匹配，因为$file变量可控，所以$result也是可控的，从而$new_file也是可控的，可以构造为php文件，然后
+
+```
+file_put_contents($new_file, base64_decode(str_replace($result[1], '', $file))))
+```
+
+对$result[1]进行base64解码，然后写入$new_file文件中。显然，是可以任意写文件进行getshell的。所以，我们要让程序能够运行到这些代码，不能在之前就退出了。要经过
+
+```
+ $auth = $this->input->get('auth');
+ if ($auth != md5(SYS_KEY))
+```
+
+SYS_KEY被系统硬编码为24b16fede9a67c9251d3e7c7161c83ac，在C:phpStudyWWWconfigsystem.php中有定义。直接md5加密一次即可绕过
